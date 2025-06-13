@@ -1,0 +1,25 @@
+.transcript {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.transcript ul { list-style: none; padding: 0; margin: 0; }
+.transcript li {
+  padding: 0.5em;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+.transcript li.active {
+  background-color: #dff0ff;
+  font-weight: bold;
+}
+.fallback {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #ffe8e8;
+  border: 1px solid #ffcccc;
+  color: #800;
+}
