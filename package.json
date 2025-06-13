@@ -1,0 +1,14 @@
+{
+  "name": "my-accessible-player",
+  "version": "0.1.0",
+  "dependencies": {
+    "@vidstack/player": "^1.0.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.0.0"
+  },
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil dev --open"
+  }
+}
