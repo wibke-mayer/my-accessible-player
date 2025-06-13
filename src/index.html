@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>Beispiel: Barrierefreier Player</title>
+  <script type="module" src="/build/accessible-player.esm.js"></script>
+  <link rel="stylesheet" href="/build/accessible-player.css" />
+</head>
+<body>
+  <h1>Mein barrierefreier Livestream-Player</h1>
+
+  <my-accessible-player
+    src="/assets/video/live.m3u8"
+    fallback-src="/assets/video/backup.m3u8"
+    poster="/assets/video/poster.jpg"
+    subtitles='[{"label":"Deutsch","src":"/assets/video/de.vtt","lang":"de"},{"label":"English","src":"/assets/video/en.vtt","lang":"en"}]'
+    descriptions='[{"label":"Deutsch AD","src":"/assets/video/de-ad.vtt","lang":"de"}]'
+    transcript="/assets/video/de.vtt"
+  ></my-accessible-player>
+</body>
+</html>
